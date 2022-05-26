@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&display=swap");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #f8f3eb;
+  color: #484847;
+  padding-bottom: 5rem;
+}
+
+.responsive-wrapper {
+  width: 95%;
+  max-width: 1900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  color: #000;
+  text-decoration: none;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  display: none;
+  font-weight: 500;
+  display: inline-block;
+  align-items: center;
+}
+.header-link--button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+}
+.page-title {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.page-title h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+.page-title h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: -3px;
+  height: 2px;
+  background-color: currentcolor;
+}
+
+
+
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+}
+
+.heading span {
+	display: block;
+}
+
+
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+#gallery img,#gallery video {
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+</style>
+
+
+
+
+</head>
+<body>
+    <header class="header responsive-wrapper">
+        <div class="header-middle">
+            <a href="tel:8369552030" class="header-link">Call Us (+91) 8369552030</a>
+            <span>/</span>
+            <a href="mailto:earthmaifoundation@gmail.com" class="header-link">earthmaifoundation@gmail.com</a>
+        </div>
+        <div class="header-right">
+        <nav class="header-nav">
+            <a href="join.html" class="header-link header-link--button">Join Us</a>
+            <a href="donate.html" class="header-link header-link--button">Donate</a>
+            <a href="index.html" class="header-link header-link--button"> &nbsp;Home&nbsp;</a>
+        </nav></div></header>
+        <main class="responsive-wrapper">
+            <div class="page-title">
+                <h1>Earthmai Foundation</h1>
+            </div>
+
+
+        <h1 class="heading">Powai Lake Plastic Cleaning</h1>
+       <div id="gallery" class="container-fluid">  
+         <img src= "images/powai one/powai main.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0003.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0004.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0011.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0013.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0014.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0016.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0018.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0019.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0020.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0021.jpg" class="img-responsive">
+         <img src= "images/powai one/IMG-20210605-WA0057.jpg" class="img-responsive">
+<br>
+</div>
+</div>
+
+<h1 class="heading">Road Safety Awareness</h1>
+<div id="gallery" class="container-fluid">  
+  <img src= "images/Road/IMG-20211017-WA0019.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0021.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0022.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0040.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0054.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0065.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0067.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0068.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0070.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0071.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0076.jpg" class="img-responsive">
+  <img src= "images/Road/IMG-20211017-WA0077.jpg" class="img-responsive">
+<br>
+
+</div></div>
+
+<h1 class="heading">Tree Plantation & Maintenance</h1>
+<div id="gallery" class="container-fluid">  
+  <img src= "images/Tree/IMG-20210801-WA0030.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0039.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0043.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0045.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0047.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0048.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0050.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0051.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0332.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0338.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0342.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210801-WA0345.jpg" class="img-responsive">
+  <img src= "images/Tree/IMG-20210803-WA0010.jpg" class="img-responsive">
+<br>
+</div>
+</div>
+
+<h1 class="heading">E-Shram Card& Ayushman Card</h1>
+<div id="gallery" class="container-fluid">  
+  <img src= "images/shram/271865389_213665437643652_2144114079314808291_n.jpg" class="img-responsive">
+  <img src= "images/shram/271932767_213665424310320_8896126672539067811_n.jpg" class="img-responsive">
+  <img src= "images/shram/271981796_213665434310319_2924245597002121050_n.jpg" class="img-responsive">
+  <img src= "images/shram/271993505_213665427643653_718600232905625755_n.jpg" class="img-responsive">
+  <img src= "images/shram/272044256_213665430976986_711950826148939443_n.jpg" class="img-responsive">
+  <img src= "images/shram/272063831_213665440976985_8846059172105921957_n.jpg" class="img-responsive">
+<br>
+</div>
+</div><br><br>
+
+<p  class="copyright text-muted small">  This Website is developed by<a href="https://www.linkedin.com/in/utkarsh-mishra-795435212"> Utkarsh Mishra</a></p>
+<script>
+
+$(document).ready(function(){
+  $("img").click(function(){
+  var t = $(this).attr("src");
+  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+  $("#myModal").modal();
+});
+
+$("video").click(function(){
+  var v = $("video > source");
+  var t = v.attr("src");
+  $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+  $("#myModal").modal();  
+});
+});//EOF Document.ready
+</script>
+</body>
+</html>
