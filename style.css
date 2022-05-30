@@ -20,10 +20,11 @@ img {
 }
 
 .responsive-wrapper {
-  width: 100%;
-  max-width: 1800px;
+  width: 95%;
+  max-width: 1900px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .header {
@@ -53,7 +54,6 @@ img {
   background-color: #000;
   color: #fff;
   padding: 0.5rem 1.25rem;
-  text-align: center;
 }
 
 .page-title {
